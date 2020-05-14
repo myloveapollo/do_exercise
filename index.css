@@ -3,9 +3,10 @@
     margin: 0 auto;
     height: 450px;
     width: 100%;
-    background: url(../Image/Login-Img/login_bg.jpg) no-repeat center;
+    /*background: url(./image/login_img/login.jpg) no-repeat center;*/
     background-size:100% 450px ;
     margin-top: 25px;
+    /*background: #;*/
 }
 .login-wrap{
     position: absolute;
@@ -16,11 +17,12 @@
     -moz-border-radius: 10px;
     right:200px;
     margin-top: 75px;
-    background: url("../Image/Login-Img/form_bg.png") no-repeat;
+    /*background: url("../Image/Login-Img/form_bg.png") no-repeat;*/
     background-size: 100%;
+    background: #CCC;
 }
 .login-wrap h3{
-    color:#fff;
+    color:#000;
     font-size: 18px;
     text-align: center;
 }
@@ -33,12 +35,14 @@
     padding-left: 40px;
 }
 .name{
-    background: url("../Image/Login-Img/user.png") no-repeat left;
-    background-position-x:12px;
+    background: url("./image/login_img/login.png") no-repeat left;
+    background-position-x:5px;
+    background-size: 30px 30px;
 }
 .code{
-    background: url("../Image/Login-Img/passwd.png") no-repeat left;
-    background-position-x:12px;
+    background: url("./image/login_img/code.png") no-repeat left;
+    background-position-x:5px;
+    background-size: 30px 30px;
 }
 .btn input{
     height: 40px;
@@ -56,7 +60,7 @@
 }
 input:active{border-color:#147a62}
 .submit{background: #ea8c37;margin-left: 25px;}
-.reset{background: #bbb;}
+.reset{background: #ea8c37;}
 /**错误信息提醒**/
 .msg{
     color: #ea8c37;
