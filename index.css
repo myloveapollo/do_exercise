@@ -1,12 +1,12 @@
  .content{
 	padding:0 auto;
     margin: 0 auto;
-    height: 450px;
+    height: 800px;
     width: 100%;
     /*background: url(./image/login_img/login.jpg) no-repeat center;*/
     background-size:100% 450px ;
     margin-top: 25px;
-    /*background: #;*/
+    background: #AAA;
 }
 .login-wrap{
     position: absolute;
@@ -27,7 +27,7 @@
     text-align: center;
 }
 .name,.code{
-    border:1px solid #fff;
+    border:2px solid #fff;
     width:230px;
     height: 40px;
     margin-left: 25px;
@@ -37,12 +37,12 @@
 .name{
     background: url("./image/login_img/login.png") no-repeat left;
     background-position-x:5px;
-    background-size: 30px 30px;
+    background-size: 25px 25px;
 }
 .code{
     background: url("./image/login_img/code.png") no-repeat left;
     background-position-x:5px;
-    background-size: 30px 30px;
+    background-size: 25px 25px;
 }
 .btn input{
     height: 40px;
@@ -50,7 +50,7 @@
     float: left;
     margin-right: 25px;
     border:none;
-    color:#fff;
+    color:#000;
     font-size: 16px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -58,11 +58,13 @@
     margin-top: 10px;
     cursor: pointer;
 }
-input:active{border-color:#147a62}
+input:active{border-color:#147a62} /*输入的时候边框变色*/
+
 .submit{background: #ea8c37;margin-left: 25px;}
 .reset{background: #ea8c37;}
+
 /**错误信息提醒**/
-.msg{
+/*.msg{
     color: #ea8c37;
     font-size: 14px;
     padding-left: 40px;
@@ -70,3 +72,4 @@ input:active{border-color:#147a62}
     clear: both;
     font-weight: bold;
 }
+*/
